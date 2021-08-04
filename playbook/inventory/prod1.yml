@@ -1,0 +1,5 @@
+---
+  deb:
+    hosts:
+     7zgymko/ansi:
+        ansible_connection: docker 
