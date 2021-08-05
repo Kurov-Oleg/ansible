@@ -24,12 +24,12 @@
 
 7. Как называется модуль подключения к host на windows?
 
-   **win_hosts**
+   **winrm**
 
 8. Приведите полный текст команды для поиска информации в документации ansible для модуля подключений ssh
 
-   **touch file && ansible-doc -l > file && (cat file |grep ssh)**
+   ** ansible-doc -t connection -l grep ssh**
 
 9. Какой параметр из модуля подключения `ssh` необходим для того, чтобы определить пользователя, под которым необходимо совершать подключение?
   
-   **openssh_keypair**
+   **parametr user in paramiko_ssh **
