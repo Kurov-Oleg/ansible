@@ -28,8 +28,8 @@
 
 8. Приведите полный текст команды для поиска информации в документации ansible для модуля подключений ssh
 
-   ** ansible-doc -t connection -l grep ssh**
+   ** ansible-doc -t connection -l | grep ssh**
 
 9. Какой параметр из модуля подключения `ssh` необходим для того, чтобы определить пользователя, под которым необходимо совершать подключение?
   
-   **parametr user in paramiko_ssh **
+   **ansible_user **
